@@ -1,0 +1,27 @@
+Ctrl+Shift+p
+my.code-snippets
+
+mm - css, scss - Внешние отступы - margin: 0px 0px 0px 0px;
+
+pp - css, scss - Внутренние отступы - padding: 0px 0px 0px 0px;
+
+menu - html - Блок меню (навигация)
+<div class="header__menu menu">
+	<button type="button" class="menu__icon icon-menu"><span></span></button>
+	<nav class="menu__body">
+	<ul class="menu__list">
+		<li class="menu__item"><a href="" class="menu__link"></a></li>
+	</ul>
+	</nav>
+</div>
+
+spoiler - html - Спойлеры
+<div data-spoller class="spoller">
+	<div class="spoller__item">
+	<a href="" class="spoller__title">Заголовок</a>
+	<button type="button" data-spoller class="spoller__arrow"></button>
+		<div class="spoller__body">
+			Текст
+		</div>
+	</div>
+</div>
